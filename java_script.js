@@ -1,5 +1,5 @@
 //Create an array, print the length
-let fruits=['Apple','Banana','Orange','kiwi'] 
+let fruits=['Apple','Banana','Orange','Kiwi'] 
 console.log(fruits.length)
 
 //Access an array item using the index position
@@ -35,3 +35,28 @@ console.log(newlength)
 
 
 fruits.forEach(element => console.log(element))
+
+//Remove an element from the end of the array
+let last2 = fruits.pop()
+console.log('this was the last element:', last2)
+
+fruits.forEach(element => console.log(element))
+
+//Remove an element from the beginning of the array
+let first2 = fruits.shift()
+console.log('this was the first element', first2)
+
+fruits.forEach(element => console.log(element))
+
+//Add and element to the beginning of the array
+let newlength2 = fruits.unshift('Watermelon')
+console.log(newlength2)
+
+fruits.forEach(element => console.log(element))
+
+fruits.push('Mango')
+fruits.forEach(element => console.log(element))
+
+//Find the index of an item on the array
+let position = fruits.indexOf('Banana')
+console.log (position)
