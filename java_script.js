@@ -60,3 +60,9 @@ fruits.forEach(element => console.log(element))
 //Find the index of an item on the array
 let position = fruits.indexOf('Banana')
 console.log (position)
+fruits.forEach(element => console.log(element))
+
+let removedItem = fruits.slice(0, 2)
+fruits.forEach(element => console.log(element))
+console.log (removedItem)
+

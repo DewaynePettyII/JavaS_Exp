@@ -1,41 +1,18 @@
-let weight = 91
-if(weight<=60){
-    category = 'light'
-} else if(weight>60 && weight<=90){
-    category = 'middle'
-} else {category = 'heavy'}
-console.log (category)
+let numbers = [1, 2 ,3]
 
-let array = ['a', 'b', 'c', 'd']
-array.forEach(element => console.log (element))
+//Use the loop function to go over the array for
+for(let i=0; i<numbers.length; i++){
+    console.log(numbers[i])}
 
-//Adds at the end
-array.push ('e')
-console.log ('part 1')
-array.forEach(element => console.log (element))
+//If the number in the array is 1, then you will print one
+for (let i = 0; i<numbers.length; i++){
+    if (numbers[i]=='1')
+    {console.log ('one') 
+} else if (numbers[i]=='2'){
+    console.log ('two')}
+    else if (numbers[i]=='3')
+    {console.log ('three')}}    
 
-//Removes from the beginning
-array.shift ('b')
-console.log ('part 2')
-array.forEach(element => console.log (element))
+//Learn the difference between an array and a loop
 
-//
-array.shift ('b')
-console.log ('part 3')
-array.forEach(element => console.log (element))
-
-
-//Adds at the beginning
-array.unshift ('a')
-console.log ('part 4')
-array.forEach(element => console.log (element))
-
-//Removes from the end
-array.pop ('e')
-console.log ('part 5')
-array.forEach(element => console.log (element))
-
-//Adds at the end
-array.push ('c')
-console.log ('part 6')
-array.forEach(element => console.log (element))
+//What does it completely mean to "print"
